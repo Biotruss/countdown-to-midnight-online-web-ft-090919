@@ -8,7 +8,7 @@ end
 
 def countdown_with_sleep(num)
   while num > 0
-    puts "#{seconds_to_midnight} SECOND(S)!"
+    puts "#{num} SECOND(S)!"
     sleep(1)
     seconds_to_midnight -= 1
   end
